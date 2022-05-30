@@ -1,0 +1,12 @@
+name: editor
+type: app
+permissions:
+  app:
+    javascript: false
+    forms: true
+    storage:
+      enabled: true
+      wholestore: true
+      readwrite: true
+    file_opener:
+      text/*: /file?file=%file%

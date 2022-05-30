@@ -1,0 +1,13 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <form action="/apps/embed/editor/save?file={{ .Filename }}" method="POST">
+        <textarea name="data">{{ .Text }}</textarea>
+        <input type="submit" value="Save {{ .Filename }}" />
+    </form>
+</body>
+
+</html>
